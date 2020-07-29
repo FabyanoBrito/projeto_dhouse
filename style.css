@@ -1,0 +1,90 @@
+html * {
+    margin: 0px;
+}
+
+h1 {
+    color: #0000ff;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Bradley Hand ITC";
+}
+
+#logo {
+    height: 50px;
+    width: 15%;
+    text-align: left;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav-right a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav-right a:hover {
+  background-color:blue;
+  color: black;
+}
+
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+#painel {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.caixa1 {
+    height: 200px;
+    background-color: blueviolet;
+    background-image: url('livro.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.caixa2 {
+    height: 200px;
+    background-color: chartreuse;
+    background-image: url('teclado.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.caixa3{
+    height: 200px;
+    background-color: blue;
+    background-size: cover;
+    background-position: center;
+}
+
+.caixa3:hover {
+    color: blue;
+    background-color: burlywood;
+}
+
+
+#noticias {
+    color: green
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 10px;
+}
+
+.rodape {
+    text-align: center;
+}
